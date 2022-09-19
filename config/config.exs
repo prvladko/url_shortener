@@ -8,6 +8,7 @@
 import Config
 
 config :shorty,
+  env: Mix.env(),
   ecto_repos: [Shorty.Repo]
 
 # Configures the endpoint
